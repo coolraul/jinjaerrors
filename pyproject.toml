@@ -1,0 +1,11 @@
+[project]
+name = "jinjaerrors"
+version = "0.1.0"
+description = "Precise Jinja2 runtime error reporting"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3",
+]
+
+[tool.ruff]
+line-length = 88

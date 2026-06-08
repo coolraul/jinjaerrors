@@ -1,0 +1,1 @@
+<div class="product-tags">{% for tag in product.tags %}{% if tag in highlight_tags %}<span class="tag tag-hl">{{ tag }}</span>{% else %}<span class="tag">{{ tag }}</span>{% endif %}{% endfor %}</div>
